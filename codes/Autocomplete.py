@@ -10,7 +10,11 @@ def autoComplete(tab):
 
 
 def completer(text, state):
-    return (autoComplete(text) + [None])[state]
+    if text == "":
+        x = [b for b in os.listdir(os.curdir) if not str(b).startswith(".")]
+        return x[state]
+    else:
+        return (autoComplete(text) + [None])[state]
     # return ""
     # isCd = str(text).startswith("cd")
     # options = (glob.glob(text + '*') + [None])[state]
@@ -18,8 +22,6 @@ def completer(text, state):
     #     options1 = (glob.glob1("/bin/", text + "*") + [None])[state]
     #     systemCmds = (glob.glob1("/sbin/", text + "*") + [None])[state]
     # elif text == "":
-    #     x = [b for b in os.listdir(os.curdir) if not str(b).startswith(".")]
-    #     return x[state]
     # if options is not None:
     #     return None if not os.path.isdir(options) else options
     # elif options is None and options1 is not None:
