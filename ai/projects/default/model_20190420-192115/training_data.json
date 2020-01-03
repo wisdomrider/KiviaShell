@@ -1,0 +1,479 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "fallback",
+        "text": "hey"
+      },
+      {
+        "intent": "fallback",
+        "text": "hello ashgd"
+      },
+      {
+        "intent": "fallback",
+        "text": "hi ashd ahsd"
+      },
+      {
+        "intent": "fallback",
+        "text": "heya ahsd hasd bas d"
+      },
+      {
+        "intent": "fallback",
+        "text": "askjdhoh2eo912y08192"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 13,
+            "value": "facebook",
+            "entity": "URL"
+          }
+        ],
+        "text": "open facebook"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "google",
+            "entity": "URL"
+          }
+        ],
+        "text": "open google"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "youtube",
+            "entity": "URL"
+          }
+        ],
+        "text": "open youtube"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 14,
+            "value": "wikipedia",
+            "entity": "URL"
+          }
+        ],
+        "text": "open wikipedia"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "github",
+            "entity": "URL"
+          }
+        ],
+        "text": "open github"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 11,
+            "value": "github",
+            "entity": "URL"
+          },
+          {
+            "start": 15,
+            "end": 21,
+            "value": "chrome",
+            "entity": "browser"
+          }
+        ],
+        "text": "open github on chrome"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 20,
+            "value": "avishekadhikari",
+            "entity": "URL"
+          },
+          {
+            "start": 24,
+            "end": 31,
+            "value": "mozilla",
+            "entity": "browser"
+          }
+        ],
+        "text": "open avishekadhikari on mozilla"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 5,
+            "end": 12,
+            "value": "youtube",
+            "entity": "URL"
+          },
+          {
+            "start": 16,
+            "end": 23,
+            "value": "mozilla",
+            "entity": "browser"
+          }
+        ],
+        "text": "open youtube in mozilla"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 4,
+            "end": 11,
+            "value": "youtube",
+            "entity": "URL"
+          },
+          {
+            "start": 15,
+            "end": 22,
+            "value": "mozilla",
+            "entity": "browser"
+          }
+        ],
+        "text": "run youtube on mozilla"
+      },
+      {
+        "intent": "open_url",
+        "entities": [
+          {
+            "start": 4,
+            "end": 10,
+            "value": "google",
+            "entity": "URL"
+          },
+          {
+            "start": 14,
+            "end": 20,
+            "value": "safari",
+            "entity": "browser"
+          }
+        ],
+        "text": "run google in safari"
+      },
+      {
+        "intent": "install",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "pip3",
+            "entity": "package"
+          }
+        ],
+        "text": "install pip3"
+      },
+      {
+        "intent": "install",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "firefox",
+            "entity": "package"
+          }
+        ],
+        "text": "install firefox"
+      },
+      {
+        "intent": "install",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "fire",
+            "entity": "package"
+          }
+        ],
+        "text": "install fire"
+      },
+      {
+        "intent": "install",
+        "entities": [
+          {
+            "start": 8,
+            "end": 12,
+            "value": "pip3",
+            "entity": "package"
+          }
+        ],
+        "text": "install pip3 on my terminal"
+      },
+      {
+        "intent": "install",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "python3",
+            "entity": "package"
+          }
+        ],
+        "text": "install python3"
+      },
+      {
+        "intent": "install",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "mozilla",
+            "entity": "package"
+          }
+        ],
+        "text": "install mozilla please"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "scafi",
+            "entity": "module"
+          },
+          {
+            "start": 17,
+            "end": 21,
+            "value": "pip3",
+            "entity": "package"
+          }
+        ],
+        "text": "install scafi on pip3"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 15,
+            "end": 20,
+            "value": "scafi",
+            "entity": "module"
+          },
+          {
+            "start": 24,
+            "end": 28,
+            "value": "pip3",
+            "entity": "package"
+          }
+        ],
+        "text": "please install scafi on pip3"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "wisdomrider",
+            "entity": "module"
+          },
+          {
+            "start": 23,
+            "end": 26,
+            "value": "npm",
+            "entity": "package"
+          }
+        ],
+        "text": "install wisdomrider on npm"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 8,
+            "end": 19,
+            "value": "nepalmodule",
+            "entity": "module"
+          },
+          {
+            "start": 23,
+            "end": 27,
+            "value": "node",
+            "entity": "package"
+          }
+        ],
+        "text": "install nepalmodule on node"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 8,
+            "end": 16,
+            "value": "selenium",
+            "entity": "module"
+          },
+          {
+            "start": 20,
+            "end": 24,
+            "value": "pip3",
+            "entity": "package"
+          }
+        ],
+        "text": "install selenium in pip3"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 15,
+            "end": 23,
+            "value": "selenium",
+            "entity": "module"
+          },
+          {
+            "start": 27,
+            "end": 31,
+            "value": "pip3",
+            "entity": "package"
+          }
+        ],
+        "text": "please install selenium in pip3"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 8,
+            "end": 15,
+            "value": "nodemon",
+            "entity": "module"
+          },
+          {
+            "start": 19,
+            "end": 22,
+            "value": "npm",
+            "entity": "package"
+          }
+        ],
+        "text": "install nodemon in npm"
+      },
+      {
+        "intent": "install_on",
+        "entities": [
+          {
+            "start": 8,
+            "end": 13,
+            "value": "scifi",
+            "entity": "module"
+          },
+          {
+            "start": 24,
+            "end": 27,
+            "value": "npm",
+            "entity": "package"
+          }
+        ],
+        "text": "install scifi module in npm"
+      },
+      {
+        "intent": "sys_command",
+        "entities": [
+          {
+            "start": 0,
+            "end": 6,
+            "value": "reboot",
+            "entity": "cmd"
+          }
+        ],
+        "text": "reboot my pc please"
+      },
+      {
+        "intent": "sys_command",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "shutdown",
+            "entity": "cmd"
+          }
+        ],
+        "text": "shutdown my pc please"
+      },
+      {
+        "intent": "sys_command",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "refresh",
+            "entity": "cmd"
+          }
+        ],
+        "text": "refresh my pc"
+      },
+      {
+        "intent": "sys_command",
+        "entities": [
+          {
+            "start": 0,
+            "end": 7,
+            "value": "refresh",
+            "entity": "cmd"
+          }
+        ],
+        "text": "refresh"
+      },
+      {
+        "intent": "sys_command",
+        "entities": [
+          {
+            "start": 0,
+            "end": 8,
+            "value": "shutdown",
+            "entity": "cmd"
+          }
+        ],
+        "text": "shutdown"
+      },
+      {
+        "intent": "sys_command",
+        "entities": [
+          {
+            "start": 28,
+            "end": 34,
+            "value": "reboot",
+            "entity": "cmd"
+          }
+        ],
+        "text": "i am feeling sleepy can you reboot my pc"
+      },
+      {
+        "intent": "sys_command",
+        "entities": [
+          {
+            "start": 28,
+            "end": 36,
+            "value": "shutdown",
+            "entity": "cmd"
+          }
+        ],
+        "text": "i am feeling sleepy can you shutdown my pc"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

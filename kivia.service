@@ -1,0 +1,15 @@
+[Unit]
+Description=Kivia Ai Service
+After=network.target remote-fs.target nss-lookup.target
+
+[Service]
+Type=forking
+Environment=/usr/local/etc/kivia
+ExecStart=/usr/local/etc/kivia/ai/run.sh
+ExecStop=/usr/local/etc/kivia/ai/stop.sh
+ExecReload=/usr/local/etc/kivia/ai/run.sh
+PrivateTmp=true
+Restart=on-abort
+
+[Install]
+WantedBy=multi-user.target
